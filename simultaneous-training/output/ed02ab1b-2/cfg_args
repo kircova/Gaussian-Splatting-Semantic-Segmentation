@@ -1,0 +1,1 @@
+Namespace(sh_degree=3, source_path='C:\\Users\\ykirc\\Desktop\\extracting', model_path='./output/ed02ab1b-2', images='images', resolution=-1, white_background=False, data_device='cuda', eval=False)
