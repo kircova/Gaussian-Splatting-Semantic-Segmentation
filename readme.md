@@ -97,3 +97,24 @@ This directory contains utility scripts for general operations, image processing
     dino_feats = torch.load("C:\\Users\\ykirc\\Desktop\\input-scenes\\1_snacks\\1_snacks.pt", weights_only=True)
     ```
     Update the path to point to your specific DINO features file.
+
+
+## References
+
+This project builds upon the code from the following paper:
+- @Article{kerbl3Dgaussians,
+      author       = {Kerbl, Bernhard and Kopanas, Georgios and Leimk{\"u}hler, Thomas and Drettakis, George},
+      title        = {3D Gaussian Splatting for Real-Time Radiance Field Rendering},
+      journal      = {ACM Transactions on Graphics},
+      number       = {4},
+      volume       = {42},
+      month        = {July},
+      year         = {2023},
+      url          = {https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/}
+}
+
+GitHub. (2023). 3D Gaussian Splatting for Real-Time Radiance Field Rendering. [online] Available at: https://github.com/graphdeco-inria/gaussian-splatting.
+
+
+This code has been inspired by the repository:
+- Harshavardhan-Pandurangan (2024). GitHub - Harshavardhan-Pandurangan/Segmentation-In-Gaussian-Splatting: Using DiNO image features along with respective sparse 3D radiance field images to train Gaussian Splats with feature understanding. The implemented method is directly inspired from ‘Interactive Segmentation of Radiance Fields’ (ISRF). The feature trained Gaussian Splats can be clustered through both physical and feature distance for segmentation. [online] GitHub. Available at: https://github.com/Harshavardhan-Pandurangan/Segmentation-In-Gaussian-Splatting/tree/main [Accessed 22 Sep. 2024].
